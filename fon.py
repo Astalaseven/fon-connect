@@ -10,8 +10,8 @@ def internet_on():
     try:
         response=urlopen(uri, timeout=1)
         return True
-    except URLError as err: pass
-    return False
+    except URLError:
+        return False
 
 connection_active = internet_on()
 try:
@@ -29,7 +29,6 @@ except IndexError:
 except URLError:
     print('Not connected to a FON box')
 
-# if not internet_on():
 try:
     urlopen(form.click()).read()
     print('Connected to FON Network!')
