@@ -32,15 +32,15 @@ Use it with:
 
     fon
 
-Alternatively, you can give your username, password and the test url as parameters (all are optional)
+Alternatively, you can give your username, password and the test url as parameters (all are optional).
 
 .. code-block:: bash
 
     fon -u user@belgacomfon.be -p mAhPassw0rdZ --url=http://myurl.example.com/page
 
-You also con specify another path for the configuration path with `-c /path/to/file`
+You also can specify another path for the configuration file with `-c /path/to/file`
 
-fon-connect also has a persist mode (activate it with :code:`-P` or :code:`--persist`) which tests the connection, reconnects if usefully, sleeps for 10 seconds and loops.
+fon-connect also has a persistent mode (activate it with :code:`-P` or :code:`--persist`) which tests the connection, reconnects if necessary, sleeps for 10 seconds and loops.
 
 Full help :
 
@@ -64,4 +64,4 @@ Misc
 ====
 
 * Feel free to report bugs or submit pull request.
-* This code should work on belgian (Belgacom) FON portals. I hope it also works on other carriers portals but if not, please report and i'll try to fix it.
+* This code should work on belgian (Belgacom) FON portals. I hope it also works on other carriers portals but if not, please report and I'll try to fix it.
