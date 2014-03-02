@@ -24,6 +24,14 @@ setup(
     url='https://github.com/Astalaseven/fon-connect',
     keywords=['fon', 'command-line', 'belgacomfon', 'login'],
     classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Environment :: Console',
+        'Intended Audience :: End Users/Desktop',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 2 :: Only',
+        'Topic :: Internet :: WWW/HTTP',
+        'Topic :: Utilities'
     ],
     install_requires=requirements,
     entry_points={
