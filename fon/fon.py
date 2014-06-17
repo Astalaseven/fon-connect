@@ -35,8 +35,8 @@ def connect(url, username, password):
 
         try:
             form = forms[0]
-            form["login[user]"] = username
-            form["login[pass]"] = password
+            form["login[USERNAME]"] = username
+            form["login[PASSWORD]"] = password
         except IndexError:
             raise SSIDException('You are not connected on a FON box')
 
