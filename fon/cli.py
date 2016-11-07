@@ -13,7 +13,7 @@ def getconfig(config_file=None):
         config_file = path.join(home, ".config", "fon")
 
     if not path.isfile(config_file):
-        exit('No file.')
+        exit('No config file at '+ config_file)
 
     try:
         configParser = ConfigParser.RawConfigParser()
